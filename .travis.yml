@@ -1,4 +1,4 @@
-sudo: true
+language: generic
 addons:
     ssh_known_hosts: 104.236.23.209
 before_deploy:
