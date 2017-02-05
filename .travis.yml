@@ -1,7 +1,7 @@
 sudo: false
 addons:
   ssh_known_hosts: 104.236.23.209
-  before_deploy:
+before_deploy:
       - openssl aes-256-cbc aes-256-cbc -K $encrypted_<...>_key -iv $encrypted_<...>_iv -in deploy_rsa.enc -out /tmp/deploy_rsa -d
       - eval "$(ssh-agent -s)"
       - chmod 600 /tmp/deploy_rsa
