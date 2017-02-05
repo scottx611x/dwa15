@@ -1,7 +1,4 @@
-sudo: false
-language: php
-php:
-    - 5.4
+sudo: true
 addons:
     ssh_known_hosts: 104.236.23.209
 before_deploy:
