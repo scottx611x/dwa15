@@ -19,7 +19,7 @@
                     "'Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.' - Linus Torvalds", 
                     "'Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves.' - Alan Kay", 
                     "'Measuring programming progress by lines of code is like measuring aircraft building progress by weight.' - Bill Gates", 
-                    "'PHP is a minor evil perpetrated and created by incompetent amateurs, whereas Perl is a great and insidious evil, perpetrated by skilled but perverted professionals.' - Jon Ribbens");
+                    "'Talk is cheap, show me the code!' - Linus Torvalds");
                 $rand_key = array_rand($input, 1);
                 echo '<h3 class="quote">'.$input[$rand_key].'</h3>';
             ?>
