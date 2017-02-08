@@ -4,9 +4,9 @@
         <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
  	</head>
  	<body>
-        <div class="centered">
-            <h2>Scott Ouellette</h2>
-            <img class="img-main" src="assets/img/me.png"/>
+        <div class="container">
+            <h1>Scott Ouellette</h1>
+            <a href="http://scott-ouellette.com"><img class="img-main" src="assets/img/me.png"/></a>
             <p class="para">
                 I currently work as a Back-End web dev at Harvard Medical School. I've recently graduated from Wentworth Institute of Technology w/ a Comp Sci degree.
 

@@ -1,9 +1,16 @@
+body {
+    background-color: #dcdcdc;
+}
 .container {
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
     text-align: center;
-    max-width: 300px;
+    max-width: 50%;
 }
 .img-main {
-    width: 200px;
+    width: 250px;
 }
 .para {
     font-size: 18px;
