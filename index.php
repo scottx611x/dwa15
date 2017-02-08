@@ -21,7 +21,7 @@
                     "'Measuring programming progress by lines of code is like measuring aircraft building progress by weight.' - Bill Gates", 
                     "'PHP is a minor evil perpetrated and created by incompetent amateurs, whereas Perl is a great and insidious evil, perpetrated by skilled but perverted professionals.' - Jon Ribbens");
                 $rand_key = array_rand($input, 1);
-                echo '<h3>'.$input[$rand_key[0]].'</h3>';
+                echo '<h3 class="quote">'.$input[$rand_key].'</h3>';
             ?>
             
         </div>
